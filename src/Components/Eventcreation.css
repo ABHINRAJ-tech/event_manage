@@ -1,0 +1,42 @@
+body
+{
+    margin: 10;
+    padding: 10;
+    font-family: san-serif;
+    box-sizing: content-box;
+}
+.container{
+    padding: 300px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    border: 1px solid black; 
+}
+.sub-container{
+    padding: 50px;
+    display: flex;
+    margin: auto;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+button{
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.box{
+    padding-top: 10px;
+}
+.box input{
+    border:1px solid black;
+    padding: 8px;
+    border-radius: 12px;
+}
